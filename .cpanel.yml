@@ -1,5 +1,22 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/smarttec/repositories/smarttechnosoft.
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/smarttec/public_html/
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R app $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R ecommerce $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
+    - /bin/cp  about.html $DEPLOYPATH
+    - /bin/cp  blog.html $DEPLOYPATH
+    - /bin/cp  contact.html $DEPLOYPATH
+    - /bin/cp  e-commerce.html $DEPLOYPATH
+    - /bin/cp  elements.html $DEPLOYPATH
+    - /bin/cp  index.html $DEPLOYPATH
+    - /bin/cp  portfolio.html $DEPLOYPATH
+    - /bin/cp  portfolio_details.html $DEPLOYPATH
+    - /bin/cp  service.html $DEPLOYPATH
+    - /bin/cp  single_blog.html $DEPLOYPATH
+    - /bin/cp  contact_process.php $DEPLOYPATH
